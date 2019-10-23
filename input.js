@@ -13,6 +13,15 @@ const handleUserInput = function(data) {
   }
   if (data === 'd') {
     connection.write('Move: right')
+  } 
+  if (data === 'g') {
+    connection.write('Say: Good Game!')
+  }
+  if (data === 'h') {
+    connection.write('Say: I AM THE BEST!!!!')
+  }
+  if (data === 'f') {
+    connection.write('Say: Ryan Reynolds > Paul Rudd')
   }
 }
 const setupInput = function(conn) {
